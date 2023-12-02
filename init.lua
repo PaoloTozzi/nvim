@@ -1,0 +1,8 @@
+require("paoletoz.remap")
+require("paoletoz.after.plugin.colors")
+require("paoletoz.after.plugin.fugitive")
+require("paoletoz.after.plugin.harpoon")
+require("paoletoz.after.plugin.lsp")
+require("paoletoz.after.plugin.telescope")
+require("paoletoz.after.plugin.treesitter")
+require("paoletoz.set")
