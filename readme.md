@@ -4,13 +4,13 @@ Step 1
 
 ###Windows nella PowerShell:
 
-cd AppData/Local
-git clone git@github.com:PaoloTozzi/nvim.git
+    cd AppData/Local
+    git clone git@github.com:PaoloTozzi/nvim.git
 
 ###Unix(Mac|Linux)
 
-cd .config
-git clone git@github.com:PaoloTozzi/nvim.git
+    cd .config
+    git clone git@github.com:PaoloTozzi/nvim.git
 
 - fai partire il comando nvim . 
 - andare in lua/paoletoz/packer
@@ -25,9 +25,10 @@ Ora il tuo setup è pronto:
 
 Ti invito per la personalizzazione a vedere questi link:
 
-    Packer (mason già installato)
-    - https://github.com/wbthomason/packer.nvim
-    - https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md LSP(language server Protocol) disponibili 
+Packer (mason già installato)
+
+- https://github.com/wbthomason/packer.nvim
+- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md LSP(language server Protocol) disponibili 
 
 
 Per i comandi eseguibili in Nvim questo link:
@@ -36,9 +37,9 @@ Per i comandi eseguibili in Nvim questo link:
 
 I comandi* per muoverti nei file sono
     
-    - Spazio|p|v oppure :Ex //per tornare a vedere il percorso dei file
-    - Spazio|p|f //per navigare tra i file
-    - :lua Color() //per fare in modo che lo sfondo diventi trasparente
+- Spazio|p|v oppure :Ex //per tornare a vedere il percorso dei file
+- Spazio|p|f //per navigare tra i file
+- :lua Color() //per fare in modo che lo sfondo diventi trasparente
 
 Per gli altri comandi vedere il file keymaps.lua 
 
