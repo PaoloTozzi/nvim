@@ -6,3 +6,5 @@ require("paoletoz.after.plugin.lsp")
 require("paoletoz.after.plugin.telescope")
 require("paoletoz.after.plugin.treesitter")
 require("paoletoz.set")
+require("paoletoz.packer")
+
