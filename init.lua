@@ -7,4 +7,3 @@ require("paoletoz.after.plugin.telescope")
 require("paoletoz.after.plugin.treesitter")
 require("paoletoz.set")
 require("paoletoz.packer")
-
